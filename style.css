@@ -27,6 +27,24 @@ img {
   color: white;
 }
 
+/**HERO SECTION**/
+.hero {
+  height: 100vh;
+  background-color: blue;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("background.jpg") no-repeat cover;
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 767px) {
   .column {
     display: block;
