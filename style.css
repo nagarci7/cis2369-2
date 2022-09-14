@@ -73,6 +73,22 @@ img {
   padding-left: 20px;
 }
 
+.no-list {
+  list-style: none;
+}
+
+.nav-items li, .inline-block {
+  display: inline-block;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items li:hover {
+  background-color: yellow;
+}
 
 button {
   text-decoration: none;
